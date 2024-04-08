@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bish-Bosh 2.0</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bish-Bosh 2.0</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Set Bish, Bosh, and Loop Limit</h2>
+            <label for="loop-limit">Loop Limit:</label>
+            <input type="number" id="loop-limit" min="1">
+            <label for="bish">Bish (Number):</label>
+            <input type="number" id="bish" min="1">
+            <label for="bosh">Bosh (Number):</label>
+            <input type="number" id="bosh" min="1">
+            <button onclick="generateBishBosh()">Generate</button>
+        </section>
+        <section id="bish-bosh-output">
+        </section>
+    </main>
+    <footer>
+        <p>Webmaster: Habib Mbow</p>
+    </footer>
+    <script src="bishbosh.js"></script>
+</body>
+</html>
